@@ -33,6 +33,7 @@ unsigned long msCurrent, msLast;  // for capturing MS for timing
 // Section needed if you write your function code below the calling
 // locations.
 void simpleExample ();
+void findI2CAddresses ();
 
 void setup() {
 	// Setup a serial terminal for debugging
